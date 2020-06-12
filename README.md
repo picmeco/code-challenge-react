@@ -18,15 +18,15 @@ within the repository.
 ## Web Server
 
 There is only single endpoint in the web server, which just tries to render
-`index.jade`. Express uses jade for templating engine by default so we are keeping
-it. It should be [quite straightforward](https://naltatis.github.io/jade-syntax-docs/) to work with jade templates.
+`index.pug`. Express uses pug for templating engine by default so we are keeping
+it. It should be [quite straightforward](https://github.com/pugjs/pug/) to work with pug templates.
 
-The default libraries have already added in the `layout.jade` for convenience. By default we include:
+The default libraries have already added in the `layout.pug` for convenience. By default we include:
 - bootstrap
 - react
 - jquery
 
-You can also include any 3rd party library you want to use in the `layout.jade`
+You can also include any 3rd party library you want to use in the `layout.pug`
 
 ### Restaurant Data Format
 `window.data.restaurant` contains the Restaurant json which you will use to implement restaurant menu.
